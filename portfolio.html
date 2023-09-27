@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Ashish.S.Y </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>ASHISH .S.Y</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I specialize in Java and Python programming languages and have extensive experience in developing software for large-scale applications. I am passionate about staying up-to-date with the latest technologies and trends in the industry  the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users..</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="https://play-lh.googleusercontent.com/btwXGfm8v0pmbsTZPCmYPOVsRgvGae17SdppuhsHEZs_gU43pMNOzjCh021CRm0hzCM=w240-h480-rw" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>LIYIL AI
+
+                    Introducing Liyil AI, the revolutionary multi AI tool designed to simplify tasks and enhance efficiency for traders, designers, editors, chatters, funny game players, and character makers. With Liyil AI, traders can access intelligent insights for informed decision-making. Designers and editors can benefit from seamless design assistance and editing capabilities.Enjoy entertaining gameplay experiences and unleash your creativity with intuitive character creation tools. Liyil AI is your all-in-one solution, empowering you to work smarter and have fun. Experience the future of productivity and entertainment today!
+                    
+                    Introducing Liyil AI, the all-in-one tool with built-in ChatGPT and BARD AI capabilities. Traders can benefit from intelligent market insights, while designers and editors can access seamless design assistance. Engage in captivating chats, enjoy entertaining gameplay, and unleash your creativity with intuitive character creation. Liyil AI revolutionizes communication, creativity, and productivity for traders, designers, editors, chatters, funny game players, and character makers. Experience the power of ChatGPT and BARD AI in a single platform. Upgrade your workflow and unlock limitless possibilities with Liyil AI today!</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://play-lh.googleusercontent.com/3Pr6PLRBhDPcYHOmKNyVnArzXu-gC0wgl-GqZnB9-B7j0RSzvT1eFA5dmv3aeSBFYA=s256-rw" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>
+                    LIYIL VPN is a free and unlimited VPN proxy, offering you a fast VPN connection and stable VPN servers. You can access your favorites sites, improve your gaming experience and stay anonymous online. Download LIYIL VPN now to enjoy fast, private and safe internet.
+
+Install LIYIL VPN now:
+✔ Unlimited and free VPN
+The best unlimited free VPN proxy for android. You can enjoy unlimited free VPN service and free VPN proxy servers anytime, anywhere.
+
+✔Access websites with secure Turbo VPN
+Unblock sites and apps at super stable and fast VPN speed. Connect to LIYIL VPN free vpn proxy servers, access geo-blocked content, forum, news, social network such as Twitter or Facebook, immediately.
+
+✔ Anonymous connection by Turbo VPN
+LIYIL VPN protects your network under WiFi hotspot or any network condition. You can browse anonymously and securely without being tracked. Military-grade AES 128-bit encryption to secure WiFi hotspot. IPsec protocols and OpenVPN protocols(UDP / TCP) to mask your online identity. Secure your internet connection and guard your sensitive data wherever you are.
+
+✔Streaming and gaming with super fast VPN
+Stream videos, live sports and TV shows on YouTube, Netflix without buffering. Listen to popular songs on any music player whenever you want. Improve your gaming experience with fast Turbo VPN servers.
+
+✔Turbo library is out now! Let's read all the free books together.
+Relax and immerse yourself in the most exciting and addictive stories. Discover free novels on LIYIL anytime, anywhere. LIYIL VPN puts free eBooks at your fingertips. Find your favorite genre to read now!</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>ashishashok893@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ASHISH.S.Y</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+// JavaScript for smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 50, // Adjust scroll offset as needed
+                behavior: 'smooth'
+            });
+        }
+    });
+});
